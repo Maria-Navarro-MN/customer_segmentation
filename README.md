@@ -38,10 +38,10 @@ Este projeto tem como objetivo aplicar **técnicas de clusterização** para seg
    
    ## ⚙️ Como Rodar o Projeto
    
-   1. **Clone o repositório**
-      ```bash
+   **Clone o repositório**
+      ```
       git clone https://github.com/Maria-Navarro-MN/customer_segmentation.git
-      cd customer_segmentation
+      cd customer_segmentation```
    
    ```python -m venv venv
       source venv/bin/activate   # Linux/Mac
@@ -78,5 +78,6 @@ Este projeto tem como objetivo aplicar **técnicas de clusterização** para seg
     Testes com diferentes algoritmos de clusterização
    
     Interpretação dos clusters e recomendações de negócio
+
 
 
