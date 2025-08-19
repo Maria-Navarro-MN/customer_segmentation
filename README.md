@@ -14,7 +14,7 @@ Este projeto tem como objetivo aplicar **técnicas de clusterização** para seg
 
 ## 📂 Estrutura do Projeto
 
-├── LICENSE
+```├── LICENSE
 ├── Makefile
 ├── data
 │ ├── external <- Dados de terceiros
@@ -34,6 +34,7 @@ Este projeto tem como objetivo aplicar **técnicas de clusterização** para seg
 
 
 ---
+```
 
 ## ⚙️ Como Rodar o Projeto
 
@@ -53,3 +54,25 @@ jupyter notebook
 ├── features <- Scripts para engenharia de atributos
 ├── models <- Scripts de treinamento e predição
 └── visualization <- Scripts para visualização
+
+- Tecnologias Utilizadas
+
+```Python 3
+
+Pandas / NumPy – manipulação de dados
+
+Scikit-learn – algoritmos de clusterização e métricas
+
+Matplotlib / Seaborn / Plotly – visualização
+
+Jupyter Notebook – experimentação e análise
+```
+- Próximos Passos
+
+ ```Análise exploratória dos dados (EDA)
+
+ Pré-processamento e normalização
+
+ Testes com diferentes algoritmos de clusterização
+
+ Interpretação dos clusters e recomendações de negócio
