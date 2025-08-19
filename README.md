@@ -43,18 +43,20 @@ Este projeto tem como objetivo aplicar **técnicas de clusterização** para seg
    git clone https://github.com/Maria-Navarro-MN/customer_segmentation.git
    cd customer_segmentation
 
-python -m venv venv
+```python -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
-
+```
+```
 pip install -r requirements.txt
+```
 
-jupyter notebook
+```jupyter notebook
 
 ├── features <- Scripts para engenharia de atributos
 ├── models <- Scripts de treinamento e predição
 └── visualization <- Scripts para visualização
-
+```
 - Tecnologias Utilizadas
 
 ```Python 3
@@ -76,3 +78,4 @@ Jupyter Notebook – experimentação e análise
  Testes com diferentes algoritmos de clusterização
 
  Interpretação dos clusters e recomendações de negócio
+
